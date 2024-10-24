@@ -1,0 +1,13 @@
+{
+    "name": "Jekyll-base Dev Container",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-vscode-remote.remote-containers",
+        "rebornix.Ruby"
+    ]
+}
